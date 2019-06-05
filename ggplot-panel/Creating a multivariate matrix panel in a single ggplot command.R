@@ -21,10 +21,10 @@ plot.colours=c(gta_colour$qualitative[c(1,1,2,4,3,7)])
 
 ## Trick #2:
 ## I assign a redundant aes parameter ('size').
-## It's redundant because I mute through setting the same value for all values of plotted variable in scale_colour_manual.
-## However, this redudant aes parameter allows me to plot a second legend.
-## Using 'breaks' in scale_colour_manual and scale_size_manual allows me to only show certain values in those legends.
-## Thanks to 'override.aes', I can tailor the second legend to my needs.
+## It's redundant because as I mute it by setting identical values for all values of plotted.variable in scale_size_manual.
+## However, this redundant aes parameter allows me to plot a second legend.
+## Using 'breaks' in scale_colour_manual and scale_size_manual lets restrict the values shown in those legends.
+## Thanks to 'override.aes', I can tailor the optics of both legends to my needs.
 
 full.panel=
   ggplot(master, 
