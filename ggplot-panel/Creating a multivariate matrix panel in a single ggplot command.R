@@ -39,7 +39,7 @@ full.panel=
   gta_theme(x.bottom.angle =90)+
   theme(axis.text.x = element_text(vjust=.5),
         strip.background.x = element_rect(fill = gta_colour$panel.bg),
-        strip.background.y = element_blank(),  ## This removes the stips from the vertical axes.
+        strip.background.y = element_blank(),  ## This removes the strips from the vertical axes.
         strip.text.y = element_blank())+
   scale_y_continuous(limits=c(0,1), 
                      sec.axis = dup_axis())+
